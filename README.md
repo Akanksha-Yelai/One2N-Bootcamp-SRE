@@ -20,15 +20,12 @@ Prerequisites
 2) JSON-server
 
 Setting Up the Environment -
-1) Make new directory(crud-RestAPI) with the help of CMD.
-2) Change the directory.
-3) Install Node.js. with command 'npm install'.
-4) Also install express in the package with 'npm i express' command.
+1) Make new directory(crud-RestAPI) with the help of CMD. Change the directory.
+2) Command 'npm init -y' which will create package.json file.
+3) Install Json-server with 'npm install --save json-server'. Also install express in the package with 'npm i express' command. Changes will reflect in package.json file.
+4) Edit package.json file, change inside of the 'Scripts' with ""json:server": "json-server --watch <databaseFileName>".
 5) Create index.json(databaseFileName) file to store the data within same directory. Enter the data in it.
-6) Command 'npm init -y' which will create package.json file.
-7) Install json-server.
-8) Edit package.json file, change inside of the 'Scripts' with ""json-server": "json-server --watch <databaseFileName>".
-9) Run 'npm run json:server' command. This will connect system to the local host server.
+6) Run 'npm run json:server' command. This will connect system to the local host server.
 
 testing -
 1) Now, browse to local host, to see the data created.
